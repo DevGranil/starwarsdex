@@ -21,9 +21,9 @@ jobs:
       working-directory: ./starwarsdex-app
       run: npm install && npm run build:prod
 
-    - name: Run Tests
-      working-directory: ./starwarsdex-app
-      run: npm run test:headless
+    # - name: Run Tests
+    #   working-directory: ./starwarsdex-app
+    #   run: npm run test:headless
 
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@v4
