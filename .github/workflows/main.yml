@@ -27,8 +27,8 @@ jobs:
     #
 
     - name: Deploy to Github Pages
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@releases/v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GH_TOKEN }}
         BRANCH: prod
         FOLDER: starwarsdex-app/dist/browser
