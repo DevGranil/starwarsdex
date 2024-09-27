@@ -31,4 +31,4 @@ jobs:
       with:
         token: ${{ secrets.GH_TOKEN }}
         BRANCH: prod
-        FOLDER: starwarsdex/dist/browser
+        FOLDER: starwarsdex-app/dist/browser
